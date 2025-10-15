@@ -6,7 +6,7 @@
 	import Torrust from '$lib/icons/torrust.svelte';
 </script>
 
-<HomeWrapper>
+<HomeWrapper class="tech-and-projects">
 	<div class="container">
 		<div class="text-container">
 			<TextBlock

@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store';
 import { browser } from '$app/environment';
 
-const getInitialTheme = () => {
+export const getInitialTheme = () => {
 	if (!browser) return 'light';
 	const storedTheme = localStorage.getItem('theme');
 	if (storedTheme) return storedTheme;
